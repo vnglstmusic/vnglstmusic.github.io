@@ -541,19 +541,24 @@ h1, h2, h3, h4, h5, h6 {
     text-shadow: 0 0 14px red;
     color: transparent; }
 
+ul, ol {
+  margin-left: 0px; }
+
 /* Portrait and Landscape */
 @media (min-width: 320px) and (max-width: 767px) {
-  .intro h2 {
-    color: black;
-    display: block;
-    font: bold vmax Helvetica;
-    text-transform: uppercase;
-    letter-spacing: -1px;
-    padding: 50px;
-    letter-spacing: 5px; }
-  .intro .blurry-text {
-    text-shadow: 0 0 6px red;
-    color: transparent; } }
+  .intro {
+    margin-left: -15px; }
+    .intro h2 {
+      color: black;
+      display: block;
+      font: bold 12vmax Helvetica;
+      text-transform: uppercase;
+      letter-spacing: -1px;
+      padding: 50px;
+      letter-spacing: 5px; }
+    .intro .blurry-text {
+      text-shadow: 0 0 6px red;
+      color: transparent; } }
 /* Setup
 ================================================== */
 .container {
