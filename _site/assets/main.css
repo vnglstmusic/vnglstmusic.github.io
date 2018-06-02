@@ -547,7 +547,7 @@ ul, ol {
 /* Portrait and Landscape */
 @media (min-width: 320px) and (max-width: 767px) {
   .intro {
-    margin-left: -15px; }
+    margin-left: -25px; }
     .intro h2 {
       color: black;
       display: block;
