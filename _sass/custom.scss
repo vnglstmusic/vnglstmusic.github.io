@@ -27,12 +27,39 @@ p{
 	  text-transform: uppercase;
 	  letter-spacing: -1px;
 	  padding: 50px;
+    letter-spacing: 2px;
 	}
 
 	.blurry-text {
 	   text-shadow: 0 0 14px red;
 	   color: transparent;
 	}
+}
+
+
+/* Portrait and Landscape */
+@media (min-width: 320px) and (max-width: 767px) { 
+
+
+
+  .intro{
+
+  h2 {
+    color: black;
+    display: block;
+    font: bold vmax Helvetica;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    padding: 50px;
+    letter-spacing: 5px;
+  }
+
+  .blurry-text {
+     text-shadow: 0 0 6px red;
+     color: transparent;
+  }
+}
+
 }
 
 
